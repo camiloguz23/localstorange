@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECNO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+   <header>
+       <div class="barra_principal">
+           <p>TECNO</p>
+           <img src="img/carrito.png" alt="carrito de compras" width="40px" id="carro">
+       </div>
+        <div class="video">
+            <video src="video/video.mp4" autoplay loop  ></video>
+            <div class="video-fondo"></div>
+        </div>
+        <ul class="menu">
+            <li><a href="#ropa">Ropa</a> </li>
+            <li><a href="#video-juegos">Video juegos</a></li>
+            <li><a href="#Tecnologia">Tecnologia</a></li>
+            <li><a href="#Libros">Libros</a></li>
+        </ul>
+        <div class="contenedor">
+            <p>Tecno</p>
+            <ul class="animacion">
+                <li>descubre</li>
+                <li>aprende</li>
+                <li>crece</li>
+            </ul>
+        </div>    
+   </header>
+   <div class="contenido" id="contenido">
+        <div class="contenido">
+            <h1 class="titulo"><a name="ropa" href="">ROPA</a></h1>
+            <div class="ropa">
+                <div >
+                    <img src="img/camisa_rayas.jpg" alt="camisa_rayas"  class="centrar">
+                    <p class="letra">camisa de rayas para hombre</p>
+                    <p class="precio">Precio <span>$70.000</span></p>
+                    <button class="comprar" data-id="1">Comprar</button>
+                </div>
+                <div>
+                    <img src="img/chaqueta.jpg" alt="chaqueta"  class="centrar">
+                    <p class="letra">chaqueta elegante marron</p>
+                    <p class="precio">Precio <span>$120.000</span></p>
+                    <button class="comprar" data-id="2">Comprar</button>
+                </div>
+                <div>
+                    <img src="img/camisas-de-traje.jpg" alt="camisas-de-traje"  class="centrar">
+                    <p class="letra">camisa elegante negra</p>
+                    <p class="precio">Precio <span>$110.000</span></p>
+                    <button class="comprar" data-id="3">Comprar</button>
+                </div>
+            </div>
+        </div> 
+        <div class="contenido">
+            <h1 class="titulo"><a name="video-juegos" href=""></a> Video juegos</h1>
+            <div class="ropa">
+                <div >
+                    <img src="img/farcry5.jpg" alt="farcry5"  class="centrar">
+                    <p class="letra">Farcry 5 para PS4</p>
+                    <p class="precio">Precio <span>$77.000</span></p>
+                    <button class="comprar" data-id="4">Comprar</button>
+                </div>
+                <div>
+                    <img src="img/jump-force.jpg" alt="jump-force"  class="centrar">
+                    <p class="letra">jump-force para PS4</p>
+                    <p class="precio">Precio <span>$40.000</span></p>
+                    <button class="comprar" data-id="5">Comprar</button>
+                </div>
+                <div>
+                    <img src="img/jedi.jpg" alt="jedi"  class="centrar">
+                    <p class="letra">Jedi fallen orden para PS4</p>
+                    <p class="precio">Precio <span>$60.000</span></p>
+                    <button class="comprar" data-id="6">Comprar</button>
+                </div>
+            </div>
+        </div> 
+        <div class="contenido">
+            <h1 class="titulo"><a name="Tecnologia" href=""></a> Tecnologia</h1>
+            <div class="ropa">
+                <div >
+                    <img src="img/celular.jpg" alt="celular"  class="centrar">
+                    <p class="letra">celular samsung</p>
+                    <p class="precio">Precio <span>$785.000</span></p>
+                    <button class="comprar" data-id="7">Comprar</button>
+                </div>
+                <div>
+                    <img src="img/portatil.jpg" alt="portatil"  class="centrar">
+                    <p class="letra">portatil</p>
+                    <p class="precio">Precio <span>$1.200.000</span></p>
+                    <button class="comprar" data-id="8">Comprar</button>
+                </div>
+                <div>
+                    <img src="img/ps4.jpg" alt="PS4"  class="centrar">
+                    <p class="letra">PS4</p>
+                    <p class="precio">Precio <span>$4.110.000</span></p>
+                    <button class="comprar" data-id="9">Comprar</button>
+                </div>
+            </div>
+        </div> 
+        <div class="contenido">
+            <h1 class="titulo"><a name="Libros" href=""></a> Libros</h1>
+            <div class="ropa">
+                <div >
+                    <img src="img/diario_sueno.png" alt="diario_de_sueño"  class="centrar">
+                    <p class="letra">Libro diario de sueño/p>
+                    <p class="precio">Precio <span>$29.000</span></p>
+                    <button class="comprar" data-id="10">Comprar</button>
+                </div>
+                <div>
+                    <img src="img/emocionestoxicas.jpg" alt="emocionestoxicas"  class="centrar">
+                    <p class="letra">Libor de emociones toxicas</p>
+                    <p class="precio">Precio <span>$36.000</span></p>
+                    <button class="comprar" data-id="11">Comprar</button>
+                </div>
+                <div>
+                    <img src="img/libro-inquebrantables.jpg" alt="libro-inquebrantables"  class="centrar">
+                    <p class="letra">libro inquebrantables</p>
+                    <p class="precio">Precio <span>$75.000</span></p>
+                    <button class="comprar" data-id="12">Comprar</button>
+                </div>
+            </div>
+        </div> 
+   </div>
+   
+     </div> 
+    <div class="carrito-compra contenido">
+        <p id="titulo_carrito">Cerrar</p>
+        <p class="eliminar" id="eliminar">eliminar</p>
+        <div id="caja" class="contenido"></div>
+        
+    </div>
+    <script src="js/carrito.js"></script>   
+</body>
+</html>
